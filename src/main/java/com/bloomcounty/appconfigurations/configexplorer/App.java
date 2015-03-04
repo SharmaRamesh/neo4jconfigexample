@@ -73,6 +73,8 @@ public class App
 		        	System.out.println(changeHistory);
 	        	}
 	        }
+	        Customer acme2 = FindCustomer("Acme Industries");
+	        
         	Customer wileyCustomer = FindCustomer("Wiley Coyote Inc");
 	        
 	        if(wileyCustomer != null) {
@@ -125,6 +127,8 @@ public class App
     	
     	// create a Customer object
     	foundCustomer = new Customer(customerNode);
+    	// Add it to the list
+    	customers.add(foundCustomer);
     	
     	return foundCustomer;
     	
