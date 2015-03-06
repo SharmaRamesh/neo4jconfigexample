@@ -37,8 +37,7 @@ public class Customer {
 	
 	
 	public String getCustomerName() {
-		String strCopy = customerName;
-		return strCopy;
+		return customerName;
 	}
 	
 	public Configuration getCurrentConfig(String strConfigName) {

@@ -73,7 +73,6 @@ public class App
 		        	System.out.println(changeHistory);
 	        	}
 	        }
-	        Customer acme2 = FindCustomer("Acme Industries");
 	        
         	Customer wileyCustomer = FindCustomer("Wiley Coyote Inc");
 	        
